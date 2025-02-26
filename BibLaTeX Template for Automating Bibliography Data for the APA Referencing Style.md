@@ -34,7 +34,7 @@ Another critical need this package addresses is its ability to differentiate sub
 
 # Implementation
 
-The main algorithms that make this package unique and require explanation are the document command `\ExtractFieldInfo` and the bibliography driver for `inproceedings`, explaining the extraction of bundled fields and differentiating between subtypes of an entry respectively.
+The main algorithms that make this package unique and require explanation are the document command `\ExtractFieldInfo` and the bibliography driver for `inproceedings` in the `APA-Custom_LaTeX-Template.bbx` file, explaining the extraction of bundled fields and differentiating between subtypes of an entry respectively.
 
 The `\ExtractFieldInfo` macro <span style="color: blue;">(line 246)</span> takes an input field and splits it into a sequence of items based on commas <span style="color: blue;">(lines 248-249)</span>. The main processing loop (`\l_my_continue_bool`) then iterates through this sequence from right to left <span style="color: blue;">(lines 258-373)</span>. This direction for iteration is a delicate matter: since the conference title may contain commas as punctuation (not separators), starting from the right ensures that the title is identified correctly after other fields (e.g., date and location) are extracted. By prioritizing the right-most items, the algorithm avoids misinterpreting the commas that are parts of the title as separate fields.
 
