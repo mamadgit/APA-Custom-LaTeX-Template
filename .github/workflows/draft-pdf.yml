@@ -12,7 +12,7 @@ jobs:
         with:
           journal: joss
           paper-path: paper.md
-          pandoc-options: --variable=colorlinks=true --variable=linkcolor=blue  # Add this line
+          args: --variable=colorlinks=true --variable=linkcolor=blue  # Use 'args' instead of 'pandoc-options'
       - name: Upload PDF
         uses: actions/upload-artifact@v4
         with:
