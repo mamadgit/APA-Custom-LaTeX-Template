@@ -261,13 +261,11 @@
     \seq_get_right:NN \l_my_input_seq \l_my_item_tl
     %Trim spaces in case of spaces before or after the item
     \tl_trim_spaces:N \l_my_item_tl
-
     \regex_match:nVTF {.\d{4}\Z} \l_my_item_tl
     {
       % Last item matches four digits at the end of the string
       \seq_pop_right:NN \l_my_input_seq \l_my_item_tl
       \tl_set:Nx \l_my_parenthesized_item_tl {( \l_my_item_tl )}
-      
       % Construct title with consistent formatting
       \tl_gset:Nx \g_my_title_tl {
         \seq_use:Nn \l_my_input_seq {,~}
