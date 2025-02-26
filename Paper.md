@@ -1,5 +1,5 @@
 ---
-title: 'BibLaTeX Template for Automating Bibliography Data for the APA Referencing Style'
+title: 'Paper'
 tags:
   - LaTeX
   - BibLaTeX
@@ -15,7 +15,7 @@ affiliations:
   - name: Independent Researcher
     index: 1
 date: 26 February 2025
-bibliography: "reference.bib"
+bibliography: "Paper.bib"
 ---
 
 # Summary
