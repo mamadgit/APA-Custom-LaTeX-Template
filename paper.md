@@ -1,5 +1,5 @@
 --- 
-title: 'Paper'
+title: 'BibLaTeX Template for Automating Bibliography Data for the APA Referencing Style'
 tags:
   - LaTeX
   - BibLaTeX
