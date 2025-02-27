@@ -1,5 +1,5 @@
 --- 
-title: 'BibLaTeX package for Automating Bibliography Data for the APA Referencing Style'
+title: 'BibLaTeX Package for Automating Bibliography Data for the APA Referencing Style'
 tags:
   - LaTeX
   - BibLaTeX
