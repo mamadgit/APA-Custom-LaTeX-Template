@@ -14,5 +14,6 @@
     \step[fieldsource=resource,   fieldtarget=bibsource]
     \step[fieldsource=source,   fieldtarget=bibsource]
     \step[fieldsource=database,   fieldtarget=bibsource]% The field database is a field for theses published only in a database (not online). However because it maintains the same printing order as the source of an online thesis, it can be interepreted as bibsource.
+    \step[fieldsource=eventday, fieldtarget=date]
   }
 }%

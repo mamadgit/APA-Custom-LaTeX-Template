@@ -3,4 +3,8 @@
   \DeclareDatamodelFields[type=field, datatype=literal]{bibsource}
   \DeclareDatamodelFields[type=field, datatype=literal]{biburl}
   \DeclareDatamodelFields[type=field, datatype=literal]{publicationnumber}
+  \DeclareDatamodelFields[type=field, datatype=literal]{location}
+  \DeclareDatamodelFields[type=field, datatype=literal]{date}
   \DeclareDatamodelEntryfields{publicationnumber}
+  \DeclareDatamodelEntryfields[inproceedings]{location}
+  \DeclareDatamodelEntryfields[inproceedings]{date}
